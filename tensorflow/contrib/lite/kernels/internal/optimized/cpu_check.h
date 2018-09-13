@@ -18,7 +18,8 @@ limitations under the License.
 namespace tflite {
 
 #ifdef __ANDROID__
-#include "ndk/sources/android/cpufeatures/cpu-features.h"
+//#include "ndk/sources/android/cpufeatures/cpu-features.h"
+#include <cpu-features.h>
 
 // Runtime check for Neon support on Android.
 inline bool TestCPUFeatureNeon() {
