@@ -1,5 +1,6 @@
 set(CMAKE_BUILD_TYPE Release)
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
+set(ANDROID_ARM_NEON true)
 
 #include $(MAKEFILE_DIR)/ios_makefile.inc
 
